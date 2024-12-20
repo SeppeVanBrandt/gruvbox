@@ -1,6 +1,6 @@
 # Change log
 
-Based on [Keep a Changelog](http://keepachangelog.com/)
+Based on [keep a changelog](http://keepachangelog.com/)
 
 ## [Unreleased]
 

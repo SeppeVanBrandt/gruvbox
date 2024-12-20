@@ -1,5 +1,6 @@
 {
   "name": "Gruvbox Material Flat Dark",
+  "type": "dark",
   "colors": {
     "actionBar.toggledBackground": "#45403d", // bg4
     "activityBar.activeBackground": "#32302f", // bg

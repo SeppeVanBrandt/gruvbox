@@ -3,7 +3,7 @@
   "displayName": "Gruvbox Material Flat",
   "description": "Gruvbox theme with Material palette and flat appearance",
   "publisher": "GrzegorzKozub",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "repository": {
     "type": "git",
     "url": "https://github.com/GrzegorzKozub/gruvbox-material-flat"
@@ -20,6 +20,11 @@
         "label": "Gruvbox Material Flat Dark",
         "uiTheme": "vs-dark",
         "path": "./themes/gruvbox-material-flat-dark-color-theme.json"
+      },
+      {
+        "label": "Gruvbox Material Flat Light",
+        "uiTheme": "vs",
+        "path": "./themes/gruvbox-material-flat-light-color-theme.json"
       }
     ]
   }

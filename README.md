@@ -2,15 +2,21 @@
 
 Gruvbox theme with Material palette and flat appearance
 
-# Ideas
+## Tasks
 
+- [ ] Provide light variant
+- [ ] Split themes into template and palette files and create a script to build them
 - [ ] Come up with a limited set of background and foreground shades
 - [ ] Decide if hover and active font use `fg` instead `fg0`
 - [ ] Solve selection and highlight color collision
 - [ ] Remove the border around the active UI elements navigated to using the keyboard
 - [ ] Simplify the syntax colors, possibly based on the built in Modern theme 
 
-# Resources
+## Red color
+
+`#ff0000` is used when the effects of changing a specific property were not observed
+
+## Resources
 
 - [Docs](https://code.visualstudio.com/api/extension-guides/color-theme)
 - [Docs source file](https://github.com/microsoft/vscode-docs/blob/main/api/references/theme-color.md)
