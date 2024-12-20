@@ -1,0 +1,22 @@
+name: Publish
+on:
+  workflow_dispatch:
+jobs:
+  Run:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+      - name: Setup node
+        uses: actions/setup-node@v4
+        with:
+          node-version: latest
+      - name: Install vsce
+        run: |
+          npm install --global @vscode/vsce
+      - name: Publish
+        env:
+          AZURE_PAT: ${{ secrets.AZURE_PAT }}
+        run: |
+          vsce package
+          vsce publish --pat $AZURE_PAT
