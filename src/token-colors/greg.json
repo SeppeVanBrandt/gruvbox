@@ -1,0 +1,33 @@
+{
+  "tokenColors": [
+    {
+      "name": "punctuation",
+      "scope": [
+        "fenced_code.block.language",
+        "meta.brace",
+        "meta.tag.preprocessor.xml",
+        "meta.tag.xml",
+        "punctuation.definition.block.sequence.item.yaml",
+        "punctuation.definition.interpolation.begin.cs",
+        "punctuation.definition.interpolation.end.cs",
+        "punctuation.definition.list.begin.markdown",
+        "punctuation.definition.markdown",
+        "punctuation.definition.raw.markdown",
+        "punctuation.definition.string.begin.html",
+        "punctuation.definition.string.begin.xml",
+        "punctuation.definition.string.begin.yaml",
+        "punctuation.definition.string.end.html",
+        "punctuation.definition.string.end.xml",
+        "punctuation.definition.string.end.yaml",
+        "punctuation.definition.table.toml",
+        "punctuation.definition.tag.begin.html",
+        "punctuation.definition.tag.end.html",
+        "punctuation.definition.tag.xml",
+        "punctuation.definition.template-expression",
+        "punctuation.separator.key-value.html",
+        "punctuation"
+      ],
+      "settings": { "foreground": "#928374" }
+    }
+  ]
+}
