@@ -1015,14 +1015,14 @@
       "scope": "punctuation.definition.heading.markdown",
       "settings": {
         "foreground": "#928374",
-        "fontStyle": "regular"
+        "fontStyle": ""
       }
     },
     {
       "scope": "string.other.link.title.markdown, constant.other.reference.link.markdown, string.other.link.description.markdown",
       "settings": {
         "foreground": "#D3869B",
-        "fontStyle": "regular"
+        "fontStyle": ""
       }
     },
     {
@@ -1042,7 +1042,7 @@
       "scope": "punctuation.definition.bold.markdown",
       "settings": {
         "foreground": "#928374",
-        "fontStyle": "regular"
+        "fontStyle": ""
       }
     },
     {
@@ -1111,7 +1111,7 @@
       "scope": "punctuation.definition.bold.restructuredtext",
       "settings": {
         "foreground": "#928374",
-        "fontStyle": "regular"
+        "fontStyle": ""
       }
     },
     {

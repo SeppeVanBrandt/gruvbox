@@ -27,27 +27,27 @@
         "punctuation.separator.key-value.html",
         "punctuation"
       ],
-      "settings": { "foreground": "#928374" }
+      "settings": { "foreground": "{{grey0}}" }
     },
     {
       "name": "comments",
       "scope": ["comment", "punctuation.definition.comment"],
-      "settings": { "fontStyle": "italic", "foreground": "#7c6f64" }
+      "settings": { "fontStyle": "italic", "foreground": "{{grey0}}" }
     },
     {
       "name": "json & yaml names",
       "scope": ["entity.name.tag.yaml", "support.type.property-name.json"],
-      "settings": { "foreground": "#7daea3" }
+      "settings": { "foreground": "{{blue}}" }
     },
     {
       "name": "markdown link text",
       "scope": ["string.other.link.title.markdown"],
-      "settings": { "foreground": "#d3869b" }
+      "settings": { "foreground": "{{purple}}" }
     },
     {
       "name": "markdown link url",
       "scope": ["markup.underline.link.markdown"],
-      "settings": { "fontStyle": "", "foreground": "#7daea3" }
+      "settings": { "fontStyle": "", "foreground": "{{blue}}" }
     }
   ]
 }
