@@ -27,7 +27,7 @@
         "punctuation.separator.key-value.html",
         "punctuation"
       ],
-      "settings": { "foreground": "{{grey0}}" }
+      "settings": { "foreground": "{{grey1}}" }
     },
     {
       "name": "comments",

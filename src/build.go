@@ -3,6 +3,7 @@ package main
 import (
 	"fmt"
 	"os"
+	"strings"
 
 	"github.com/tidwall/gjson"
 	"github.com/tidwall/sjson"
@@ -56,6 +57,17 @@ func main() {
 		})
 
 		theme = gjson.Get(theme, "@pretty").Raw
+
+		paletteFile, err := os.ReadFile("./colors/" + variant + ".json")
+		if err != nil {
+			panic(err)
+		}
+		palette := gjson.Parse(string(paletteFile))
+
+		palette.ForEach(func(key, value gjson.Result) bool {
+			theme = strings.ReplaceAll(theme, "{{"+key.Str+"}}", value.Str)
+			return true
+		})
 
 		if err := os.WriteFile(
 			"../themes/gruvbox-material-flat-"+variant+"-color-theme.json", []byte(theme), 0644); err != nil {
