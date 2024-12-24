@@ -11,67 +11,62 @@ import (
 	"golang.org/x/text/language"
 )
 
+func read(path string) []byte {
+	file, err := os.ReadFile(path)
+	if err != nil {
+		panic(err)
+	}
+	return file
+}
+
+func get(path string, prop string) gjson.Result {
+	return gjson.Get(string(read(path)), prop)
+}
+
+func parse(path string) gjson.Result {
+	return gjson.Parse(string(read(path)))
+}
+
+func set(target string, prop string, source string) string {
+	result, err := sjson.SetRaw(target, prop, source)
+	if err != nil {
+		panic(err)
+	}
+	return result
+}
+
+func build(variant string) {
+	theme := fmt.Sprintf(
+		`{ "name": "Gruvbox Material Flat %s", "type": "%s" }`,
+		cases.Title(language.English).String(variant),
+		variant)
+	dir := "./" + variant + "/"
+	colors := get(dir+"colors.jsonc", "colors")
+	theme = set(theme, "colors", colors.Raw)
+	tokenColors := get(dir+"token-colors-sainnhe.json", "tokenColors")
+	theme = set(theme, "tokenColors", tokenColors.Raw)
+	overrides := get(dir+"token-colors-greg.json", "tokenColors")
+	overrides.ForEach(func(key, value gjson.Result) bool {
+		theme = set(theme, "tokenColors.-1", value.Raw)
+		return true
+	})
+	palette := parse(dir + "palette.json")
+	palette.ForEach(func(key, value gjson.Result) bool {
+		theme = strings.ReplaceAll(theme, "{{"+key.Str+"}}", value.Str)
+		return true
+	})
+	theme = gjson.Get(theme, "@pretty").Raw
+	if err := os.WriteFile(
+		"../themes/gruvbox-material-flat-"+variant+"-color-theme.json",
+		[]byte(theme),
+		0644,
+	); err != nil {
+		panic(err)
+	}
+}
+
 func main() {
 	for _, variant := range [2]string{"dark", "light"} {
-		theme := fmt.Sprintf(
-			`{ "name": "Gruvbox Material Flat %s", "type": "%s" }`,
-			cases.Title(language.English).String(variant),
-			variant)
-
-		templateDir := "./templates/" + variant + "/"
-
-		colorsFile, err := os.ReadFile(templateDir + "colors.jsonc")
-		if err != nil {
-			panic(err)
-		}
-		colors := gjson.Get(string(colorsFile), "colors")
-
-		theme, err = sjson.SetRaw(theme, "colors", colors.Raw)
-		if err != nil {
-			panic(err)
-		}
-
-		tokenColorsFile, err := os.ReadFile(templateDir + "token-colors-sainnhe.json")
-		if err != nil {
-			panic(err)
-		}
-		tokenColors := gjson.Get(string(tokenColorsFile), "tokenColors")
-
-		theme, err = sjson.SetRaw(theme, "tokenColors", tokenColors.Raw)
-		if err != nil {
-			panic(err)
-		}
-
-		tokenColorsOverridesFile, err := os.ReadFile(templateDir + "token-colors-greg.json")
-		if err != nil {
-			panic(err)
-		}
-		tokenColorsOverrides := gjson.Get(string(tokenColorsOverridesFile), "tokenColors")
-
-		tokenColorsOverrides.ForEach(func(key, value gjson.Result) bool {
-			theme, err = sjson.SetRaw(theme, "tokenColors.-1", value.Raw)
-			if err != nil {
-				panic(err)
-			}
-			return true
-		})
-
-		theme = gjson.Get(theme, "@pretty").Raw
-
-		paletteFile, err := os.ReadFile("./colors/" + variant + ".json")
-		if err != nil {
-			panic(err)
-		}
-		palette := gjson.Parse(string(paletteFile))
-
-		palette.ForEach(func(key, value gjson.Result) bool {
-			theme = strings.ReplaceAll(theme, "{{"+key.Str+"}}", value.Str)
-			return true
-		})
-
-		if err := os.WriteFile(
-			"../themes/gruvbox-material-flat-"+variant+"-color-theme.json", []byte(theme), 0644); err != nil {
-			panic(err)
-		}
+		build(variant)
 	}
 }
