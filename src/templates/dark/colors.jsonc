@@ -9,8 +9,8 @@
     "activityBar.dropBorder": "{{bg1}}",
     "activityBar.foreground": "{{grey2}}",
     "activityBar.inactiveForeground": "{{grey0}}",
-    "activityBarBadge.background": "{{grey2}}",
     "activityBarBadge.foreground": "{{bg}}",
+    "activityBarBadge.background": "{{grey2}}",
     "activityBarTop.activeBackground": "{{bg}}",
     "activityBarTop.activeBorder": "{{dimOrange}}",
     "activityBarTop.background": "{{bg}}",
@@ -368,6 +368,7 @@
     "inlineChatInput.border": "{{flag}}",
     "inlineChatInput.focusBorder": "{{flag}}",
     "inlineChatInput.placeholderForeground": "{{flag}}",
+    "inlineEdit.border": "{{flag}}",
     "inlineEdit.indicator.background": "{{flag}}",
     "inlineEdit.indicator.border": "{{flag}}",
     "inlineEdit.indicator.foreground": "{{flag}}",
@@ -831,7 +832,6 @@
     "widget.border": "{{bg4}}",
     "widget.shadow": "{{bg0}}80",
     "window.activeBorder": "{{bg4}}",
-    "window.inactiveBorder": "{{bg}}",
-    "inlineEdit.border": "{{flag}}"
+    "window.inactiveBorder": "{{bg}}"
   }
 }
