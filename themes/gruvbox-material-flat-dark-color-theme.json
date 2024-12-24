@@ -11,8 +11,8 @@
     "activityBar.dropBorder": "#242424",
     "activityBar.foreground": "#a89984",
     "activityBar.inactiveForeground": "#7c6f64",
-    "activityBarBadge.background": "#a89984",
     "activityBarBadge.foreground": "#32302f",
+    "activityBarBadge.background": "#a89984",
     "activityBarTop.activeBackground": "#32302f",
     "activityBarTop.activeBorder": "#bd6f3e",
     "activityBarTop.background": "#32302f",
@@ -370,6 +370,7 @@
     "inlineChatInput.border": "#ff0000",
     "inlineChatInput.focusBorder": "#ff0000",
     "inlineChatInput.placeholderForeground": "#ff0000",
+    "inlineEdit.border": "#ff0000",
     "inlineEdit.indicator.background": "#ff0000",
     "inlineEdit.indicator.border": "#ff0000",
     "inlineEdit.indicator.foreground": "#ff0000",
@@ -833,8 +834,7 @@
     "widget.border": "#45403d",
     "widget.shadow": "#18191980",
     "window.activeBorder": "#45403d",
-    "window.inactiveBorder": "#32302f",
-    "inlineEdit.border": "#ff0000"
+    "window.inactiveBorder": "#32302f"
   },
   "tokenColors": [
     {
