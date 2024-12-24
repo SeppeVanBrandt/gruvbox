@@ -4,10 +4,8 @@ Gruvbox theme with Material palette and flat appearance
 
 ## Tasks
 
-- [ ] Provide light variant
-- [ ] Extract the transparency levels
 - [ ] Come up with a limited set of background and foreground shades
-- [ ] Decide if hover and active font use `fg` instead `fg0`
+- [ ] Decide if hover and active should use `fg` instead `fg0`
 - [ ] Solve selection and highlight color collision
 - [ ] Remove the border around the active UI elements navigated to using the keyboard
 - [ ] Simplify the syntax colors, possibly based on the built in Modern theme
