@@ -41,7 +41,7 @@ func build(variant string) {
 		cases.Title(language.English).String(variant),
 		variant)
 	dir := "./" + variant + "/"
-	colors := get(dir+"colors.jsonc", "colors")
+	colors := get(dir+"colors.json", "colors")
 	theme = set(theme, "colors", colors.Raw)
 	tokenColors := get(dir+"token-colors-sainnhe.json", "tokenColors")
 	theme = set(theme, "tokenColors", tokenColors.Raw)
