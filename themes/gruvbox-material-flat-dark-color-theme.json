@@ -748,7 +748,7 @@
     "terminal.background": "#32302f",
     "terminal.border": "#3c3836",
     "terminal.dropBackground": "#242424c0",
-    "terminal.findMatchBackground": "#bd6f3e",
+    "terminal.findMatchBackground": "#bd6f3ec0",
     "terminal.findMatchBorder": "default",
     "terminal.findMatchHighlightBackground": "#bd6f3e80",
     "terminal.findMatchHighlightBorder": "default",

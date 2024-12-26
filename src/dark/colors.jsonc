@@ -746,7 +746,7 @@
     "terminal.background": "{{bg}}",
     "terminal.border": "{{bg2}}",
     "terminal.dropBackground": "{{bg1}}c0",
-    "terminal.findMatchBackground": "{{dimOrange}}",
+    "terminal.findMatchBackground": "{{dimOrange}}c0",
     "terminal.findMatchBorder": "default",
     "terminal.findMatchHighlightBackground": "{{dimOrange}}80",
     "terminal.findMatchHighlightBorder": "default",
