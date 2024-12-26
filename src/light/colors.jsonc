@@ -634,7 +634,7 @@
     "statusBar.background": "{{bg}}",
     "statusBar.border": "default",
     "statusBar.debuggingBackground": "{{dimOrange}}",
-    "statusBar.debuggingBorder": "{{bg}}",
+    "statusBar.debuggingBorder": "default",
     "statusBar.debuggingForeground": "{{bg}}",
     "statusBar.focusBorder": "{{bg6}}",
     "statusBar.foreground": "{{grey2}}",
