@@ -639,7 +639,7 @@
     "statusBar.focusBorder": "{{bg6}}",
     "statusBar.foreground": "{{grey2}}",
     "statusBar.noFolderBackground": "{{bg}}",
-    "statusBar.noFolderBorder": "{{bg}}",
+    "statusBar.noFolderBorder": "default",
     "statusBar.noFolderForeground": "{{grey2}}",
     "statusBarItem.activeBackground": "{{bg6}}",
     "statusBarItem.compactHoverBackground": "{{bg4}}",

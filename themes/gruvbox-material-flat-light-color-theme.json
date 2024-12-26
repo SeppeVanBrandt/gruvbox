@@ -641,7 +641,7 @@
     "statusBar.focusBorder": "#c9b99a",
     "statusBar.foreground": "#7c6f64",
     "statusBar.noFolderBackground": "#f2e5bc",
-    "statusBar.noFolderBorder": "#f2e5bc",
+    "statusBar.noFolderBorder": "default",
     "statusBar.noFolderForeground": "#7c6f64",
     "statusBarItem.activeBackground": "#c9b99a",
     "statusBarItem.compactHoverBackground": "#e0cfa9",
