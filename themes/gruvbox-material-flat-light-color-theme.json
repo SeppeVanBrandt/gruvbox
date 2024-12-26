@@ -766,7 +766,7 @@
     "terminalCursor.background": "#f2e5bc",
     "terminalCursor.foreground": "#928374",
     "terminalOverviewRuler.border": "#f2e5bc",
-    "terminalOverviewRuler.cursorForeground": "#928374",
+    "terminalOverviewRuler.cursorForeground": "#7c6f64",
     "terminalOverviewRuler.findMatchForeground": "#e78a4e80",
     "terminalStickyScroll.background": "#f2e5bc",
     "terminalStickyScroll.border": "#f2e5bc",

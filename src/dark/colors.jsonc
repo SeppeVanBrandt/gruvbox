@@ -762,9 +762,9 @@
     "terminalCommandDecoration.successBackground": "{{termBlue}}80",
     "terminalCommandGuide.foreground": "{{bg4}}",
     "terminalCursor.background": "{{bg}}",
-    "terminalCursor.foreground": "{{grey1}}",
+    "terminalCursor.foreground": "{{grey1}}", // match normal vim mode in zsh
     "terminalOverviewRuler.border": "{{bg}}",
-    "terminalOverviewRuler.cursorForeground": "{{grey1}}",
+    "terminalOverviewRuler.cursorForeground": "{{grey2}}",
     "terminalOverviewRuler.findMatchForeground": "{{dimOrange}}80",
     "terminalStickyScroll.background": "{{bg}}",
     "terminalStickyScroll.border": "{{bg}}",
