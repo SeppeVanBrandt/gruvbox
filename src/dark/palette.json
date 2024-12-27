@@ -1,7 +1,7 @@
 {
-  "bg": "#32302f",
   "bg0": "#181919",
   "bg1": "#242424",
+  "bg": "#32302f",
   "bg2": "#3c3836",
   "bg3": "#403c3a",
   "bg4": "#45403d",
@@ -29,6 +29,7 @@
   "orange": "#e78a4e",
   "white": "#d4be98",
 
+  "dimBlack": "#665c54",
   "dimRed": "#b85651",
   "dimGreen": "#8f9a52",
   "dimYellow": "#c18f41",
@@ -36,6 +37,7 @@
   "dimPurple": "#ab6c7d",
   "dimAqua": "#72966c",
   "dimOrange": "#bd6f3e",
+  "dimWhite": "#d4be98",
 
   "termBlack": "#3c3836",
   "termRed": "#c14a4a",
