@@ -617,7 +617,7 @@
     "settings.textInputBorder": "#45403d",
     "settings.textInputForeground": "#a89984",
     "sideBar.background": "#32302f",
-    "sideBar.border": "#32302f",
+    "sideBar.border": "default",
     "sideBar.dropBackground": "#242424c0",
     "sideBar.foreground": "#a89984",
     "sideBarActivityBarTop.border": "#32302f",

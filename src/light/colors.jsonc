@@ -615,7 +615,7 @@
     "settings.textInputBorder": "{{bg4}}",
     "settings.textInputForeground": "{{grey2}}",
     "sideBar.background": "{{bg}}",
-    "sideBar.border": "{{bg}}",
+    "sideBar.border": "default",
     "sideBar.dropBackground": "{{bg1}}c0",
     "sideBar.foreground": "{{grey2}}",
     "sideBarActivityBarTop.border": "{{bg}}",
