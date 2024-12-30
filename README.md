@@ -7,6 +7,7 @@ Gruvbox theme with Material palette and flat appearance
 - [Docs](https://code.visualstudio.com/api/extension-guides/color-theme)
 - [Docs source](https://github.com/microsoft/vscode-docs/blob/main/api/references/theme-color.md)
 - [Theme source](https://github.com/microsoft/vscode/tree/main/src/vs/platform/theme/common/colors)
+- [Gradient generator](https://colordesigner.io/gradient-generator)
 
 ## Credits
 

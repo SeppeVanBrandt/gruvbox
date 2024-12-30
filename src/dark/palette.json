@@ -1,19 +1,19 @@
 {
-  "bg0": "#181919",
-  "bg1": "#242424",
-  "bg": "#32302f",
-  "bg2": "#3c3836",
+  "bg0": "#181919", // shadows
+  "bg1": "#242424", // drops
+  "bg": "#32302f", // main bg
+  "bg2": "#3c3836", // curr line
   "bg3": "#403c3a",
-  "bg4": "#45403d",
+  "bg4": "#45403d", // borders, minor emphasis
   "bg5": "#504945",
-  "bg6": "#5a524c",
+  "bg6": "#5a524c", // focus, hover, ghost text, highlights
   "bg7": "#665c54",
   "bg8": "#7c6f64",
   "bg9": "#928374",
 
-  "grey0": "#7c6f64",
+  "grey0": "#7c6f64", // not important text
   "grey1": "#928374",
-  "grey2": "#a89984",
+  "grey2": "#a89984", // cursor, emphaisis
 
   "fg1": "#c5b18d",
   "fg": "#d4be98",
