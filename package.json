@@ -3,7 +3,11 @@
   "displayName": "Gruvbox Material Flat",
   "description": "Gruvbox theme with Material palette and flat appearance",
   "publisher": "GrzegorzKozub",
-  "version": "0.0.6",
+  "version": "0.0.7",
+  "galleryBanner": {
+    "color": "#32302f",
+    "theme": "dark"
+  },
   "icon": "icon.png",
   "repository": {
     "type": "git",
