@@ -2,8 +2,8 @@
 
 Based on [keep a changelog](http://keepachangelog.com/)
 
-## [Unreleased]
+## 0.1.0 - 2025-01-01
 
 ### Added
 
-- Work in progress
+- Initial release
