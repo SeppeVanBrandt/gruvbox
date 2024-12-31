@@ -137,7 +137,7 @@
     "dropdown.listBackground": "{{bg}}",
     "editor.background": "{{bg}}",
     "editor.compositionBorder": "{{flag}}",
-    "editor.findMatchBackground": "{{dimOrange}}",
+    "editor.findMatchBackground": "{{dimOrange}}c0",
     "editor.findMatchBorder": "default",
     "editor.findMatchForeground": "default",
     "editor.findMatchHighlightBackground": "{{dimOrange}}80",

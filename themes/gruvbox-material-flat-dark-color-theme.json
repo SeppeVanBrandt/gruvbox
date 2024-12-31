@@ -139,7 +139,7 @@
     "dropdown.listBackground": "#32302f",
     "editor.background": "#32302f",
     "editor.compositionBorder": "#ff0000",
-    "editor.findMatchBackground": "#bd6f3e",
+    "editor.findMatchBackground": "#bd6f3ec0",
     "editor.findMatchBorder": "default",
     "editor.findMatchForeground": "default",
     "editor.findMatchHighlightBackground": "#bd6f3e80",

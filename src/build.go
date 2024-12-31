@@ -50,7 +50,7 @@ func build(variant string) {
 		theme = set(theme, "tokenColors.-1", value.Raw)
 		return true
 	})
-	palette := parse(dir + "palette.json")
+	palette := parse(dir + "palette.jsonc")
 	palette.ForEach(func(key, value gjson.Result) bool {
 		theme = strings.ReplaceAll(theme, "{{"+key.Str+"}}", value.Str)
 		return true
