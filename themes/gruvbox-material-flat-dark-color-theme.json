@@ -510,7 +510,7 @@
     "notificationLink.foreground": "#68948a",
     "notificationToast.border": "#45403d",
     "notifications.background": "#32302f",
-    "notifications.border": "#45403d",
+    "notifications.border": "default",
     "notifications.foreground": "#a89984",
     "notificationsErrorIcon.foreground": "#b85651",
     "notificationsInfoIcon.foreground": "#68948a",

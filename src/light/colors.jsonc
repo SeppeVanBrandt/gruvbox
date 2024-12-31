@@ -508,7 +508,7 @@
     "notificationLink.foreground": "{{dimBlue}}",
     "notificationToast.border": "{{bg4}}",
     "notifications.background": "{{bg}}",
-    "notifications.border": "{{bg4}}",
+    "notifications.border": "default",
     "notifications.foreground": "{{grey2}}",
     "notificationsErrorIcon.foreground": "{{dimRed}}",
     "notificationsInfoIcon.foreground": "{{dimBlue}}",
