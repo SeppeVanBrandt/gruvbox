@@ -1,4 +1,4 @@
-# Change log
+# Changelog
 
 Based on [keep a changelog](http://keepachangelog.com/)
 
