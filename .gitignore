@@ -1,1 +1,3 @@
+*.tmTheme
 *.vsix
+node_modules

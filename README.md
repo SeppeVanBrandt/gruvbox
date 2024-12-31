@@ -11,7 +11,7 @@ Gruvbox theme with Material palette and flat appearance
 
 ## Credits
 
-Thanks to [@sainnhe](https://github.com/sainnhe) for [gruvbox-material-vscode](https://github.com/sainnhe/gruvbox-material-vscode)
+Thanks to [@sainnhe](https://github.com/sainnhe) for [gruvbox-material-vscode](https://github.com/sainnhe/gruvbox-material-vscode) and [@tobiastimm](https://github.com/tobiastimm) for [code-theme-converter](https://github.com/tobiastimm/code-theme-converter)
 
 ## License
 

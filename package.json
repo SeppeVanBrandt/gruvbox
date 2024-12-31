@@ -32,5 +32,10 @@
         "path": "./themes/gruvbox-material-flat-light-color-theme.json"
       }
     ]
+  },
+  "type": "module",
+  "dependencies": {
+    "plist": "^3.1.0",
+    "uuid": "^11.0.3"
   }
 }
