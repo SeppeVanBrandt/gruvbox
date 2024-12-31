@@ -1,15 +1,6 @@
 {
-  "nvim": {
-    "bg0": "#f2e5bc", // background
-    "bg1": "#eddeb5", // curr line
-    "bg2": "#ebdbb2",
-    "bg3": "#e6d5ae",
-    "bg4": "#dac9a5",
-    "bg5": "#d5c4a1"
-  },
-
-  "bg0": "#7c6f64", // too much
-  "bg1": "#a89984", // too much
+  "bg0": "#a89984", // grey0
+  "bg1": "#c9b99a", // bg6
   "bg": "#f2e5bc", // #f2e5bc
   "bg2": "#ebdbb2", // #ebdaac
   "bg3": "#e6d5ae", // #e3cfa0
@@ -28,7 +19,7 @@
   "fg": "#654735",
   "fg0": "#4f3829",
 
-  "black": "#bdae93",
+  "black": "#bdae93", //bg7
   "red": "#c14a4a",
   "green": "#6c782e",
   "yellow": "#b47109",
@@ -36,9 +27,9 @@
   "purple": "#945e80",
   "aqua": "#4c7a5d",
   "orange": "#c35e0a",
-  "white": "#654735",
+  "white": "#654735", // fg
 
-  "dimBlack": "#bdae93",
+  "dimBlack": "#bdae93", // bg7
   "dimRed": "#b85651",
   "dimGreen": "#8f9a52",
   "dimYellow": "#c18f41",
@@ -46,9 +37,9 @@
   "dimPurple": "#ab6c7d",
   "dimAqua": "#72966c",
   "dimOrange": "#bd6f3e",
-  "dimWhite": "#654735",
+  "dimWhite": "#654735", // fg
 
-  "termBlack": "#ebdbb2",
+  "termBlack": "#ebdbb2", // bg2
   "termRed": "#c14a4a",
   "termGreen": "#6c782e",
   "termYellow": "#b47109",
@@ -56,7 +47,7 @@
   "termPurple": "#945e80",
   "termAqua": "#4c7a5d",
   "termOrange": "#c35e0a",
-  "termWhite": "#928374",
+  "termWhite": "#928374", // grey1
 
   "flag": "#ff0000",
   "unset": "#000000"
