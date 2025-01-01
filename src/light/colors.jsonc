@@ -306,7 +306,7 @@
     "editorRuler.foreground": "{{bg2}}",
     "editorStickyScroll.background": "{{bg}}",
     "editorStickyScroll.border": "{{bg}}",
-    "editorStickyScroll.shadow": "{{bg0}}80",
+    "editorStickyScroll.shadow": "{{bg0}}40",
     "editorStickyScrollHover.background": "{{bg}}",
     "editorSuggestWidget.background": "{{bg}}",
     "editorSuggestWidget.border": "{{bg4}}",
