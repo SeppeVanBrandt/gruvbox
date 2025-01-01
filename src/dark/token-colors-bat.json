@@ -1,0 +1,9 @@
+{
+  "tokenColors": [
+    {
+      "name": "json names",
+      "scope": ["meta.mapping.key.json string.quoted.double.json"],
+      "settings": { "foreground": "{{blue}}" }
+    }
+  ]
+}

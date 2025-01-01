@@ -2541,6 +2541,7 @@
       "name": "punctuation",
       "scope": [
         "fenced_code.block.language",
+        "keyword.control.flow.block-scalar.literal.yaml",
         "meta.brace",
         "meta.tag.preprocessor.xml",
         "meta.tag.xml",

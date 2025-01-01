@@ -35,21 +35,26 @@ func set(target string, prop string, source string) string {
 	return result
 }
 
-func build(variant string) {
+func build(variant string, tokenFiles []string) {
 	theme := fmt.Sprintf(
-		`{ "name": "Gruvbox Material Flat %s", "type": "%s" }`,
+		`{
+      "name": "Gruvbox Material Flat %s",
+      "type": "%s",
+      "colors": {},
+      "tokenColors": []
+    }`,
 		cases.Title(language.English).String(variant),
 		variant)
 	dir := "./" + variant + "/"
 	colors := get(dir+"colors.jsonc", "colors")
 	theme = set(theme, "colors", colors.Raw)
-	tokenColors := get(dir+"token-colors-sainnhe.json", "tokenColors")
-	theme = set(theme, "tokenColors", tokenColors.Raw)
-	overrides := get(dir+"token-colors-greg.json", "tokenColors")
-	overrides.ForEach(func(key, value gjson.Result) bool {
-		theme = set(theme, "tokenColors.-1", value.Raw)
-		return true
-	})
+	for _, tokenFile := range tokenFiles {
+		tokenColors := get(dir+"token-colors-"+tokenFile+".json", "tokenColors")
+		tokenColors.ForEach(func(key, value gjson.Result) bool {
+			theme = set(theme, "tokenColors.-1", value.Raw)
+			return true
+		})
+	}
 	palette := parse(dir + "palette.jsonc")
 	palette.ForEach(func(key, value gjson.Result) bool {
 		theme = strings.ReplaceAll(theme, "{{"+key.Str+"}}", value.Str)
@@ -66,7 +71,11 @@ func build(variant string) {
 }
 
 func main() {
+	tokenFiles := []string{"sainnhe", "greg"}
+	if len(os.Args) > 1 && os.Args[1] == "bat" {
+		tokenFiles = []string{"bat", "greg", "sainnhe"}
+	}
 	for _, variant := range [2]string{"dark", "light"} {
-		build(variant)
+		build(variant, tokenFiles)
 	}
 }
