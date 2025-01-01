@@ -770,7 +770,7 @@
     "terminalOverviewRuler.findMatchForeground": "#bd6f3e80",
     "terminalStickyScroll.background": "#f2e5bc",
     "terminalStickyScroll.border": "#f2e5bc",
-    "terminalStickyScrollHover.background": "#ebdbb2",
+    "terminalStickyScrollHover.background": "#f2e5bc",
     "testing.coverCountBadgeBackground": "#ff0000",
     "testing.coverCountBadgeForeground": "#ff0000",
     "testing.coveredBackground": "#8f9a5240",

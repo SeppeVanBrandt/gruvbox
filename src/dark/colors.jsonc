@@ -768,7 +768,7 @@
     "terminalOverviewRuler.findMatchForeground": "{{dimOrange}}80",
     "terminalStickyScroll.background": "{{bg}}",
     "terminalStickyScroll.border": "{{bg}}",
-    "terminalStickyScrollHover.background": "{{bg2}}",
+    "terminalStickyScrollHover.background": "{{bg}}",
     "testing.coverCountBadgeBackground": "{{flag}}",
     "testing.coverCountBadgeForeground": "{{flag}}",
     "testing.coveredBackground": "{{dimGreen}}40",
