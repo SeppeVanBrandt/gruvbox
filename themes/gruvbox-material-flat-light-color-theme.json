@@ -427,7 +427,7 @@
     "list.inactiveSelectionBackground": "#ebdbb2",
     "list.inactiveSelectionForeground": "#7c6f64",
     "list.inactiveSelectionIconForeground": "#7c6f64",
-    "list.invalidItemForeground": "#ff0000",
+    "list.invalidItemForeground": "#b85651",
     "list.warningForeground": "#c18f41",
     "listFilterWidget.background": "#f2e5bc",
     "listFilterWidget.noMatchesOutline": "#ff0000",

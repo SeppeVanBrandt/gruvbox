@@ -425,7 +425,7 @@
     "list.inactiveSelectionBackground": "{{bg2}}",
     "list.inactiveSelectionForeground": "{{grey2}}",
     "list.inactiveSelectionIconForeground": "{{grey2}}",
-    "list.invalidItemForeground": "{{flag}}",
+    "list.invalidItemForeground": "{{dimRed}}",
     "list.warningForeground": "{{dimYellow}}",
     "listFilterWidget.background": "{{bg}}",
     "listFilterWidget.noMatchesOutline": "{{flag}}",
