@@ -4,6 +4,24 @@
       "name": "json names",
       "scope": ["meta.mapping.key.json string.quoted.double.json"],
       "settings": { "foreground": "{{blue}}" }
+    },
+    {
+      "name": "toml names",
+      "scope": [
+        "entity.name.table.toml",
+        "entity.name.tag.toml",
+        "meta.tag.key.toml",
+        "meta.tag.table.toml"
+      ],
+      "settings": { "foreground": "{{blue}}" }
+    },
+    {
+      "name": "toml strings",
+      "scope": [
+        "string.quoted.double.basic.toml",
+        "string.quoted.single.literal.toml"
+      ],
+      "settings": { "foreground": "{{green}}" }
     }
   ]
 }
