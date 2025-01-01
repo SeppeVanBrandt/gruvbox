@@ -72,8 +72,8 @@ func build(variant string, tokenFiles []string) {
 
 func main() {
 	tokenFiles := []string{"sainnhe", "greg"}
-	if len(os.Args) > 1 && os.Args[1] == "bat" {
-		tokenFiles = []string{"bat", "greg", "sainnhe"}
+	if len(os.Args) > 1 && os.Args[1] == "tm" {
+		tokenFiles = []string{"tm", "greg", "sainnhe"}
 	}
 	for _, variant := range [2]string{"dark", "light"} {
 		build(variant, tokenFiles)

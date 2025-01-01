@@ -1,9 +1,8 @@
 #!/usr/bin/env bash
 
 pushd ./src > /dev/null
-
-go run ./build.go bat
-
+go run ./build.go tm
 popd > /dev/null
 
-node ./src/bat.js
+npm install
+node ./src/tm.js
