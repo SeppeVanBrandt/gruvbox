@@ -3,10 +3,9 @@
 .github/**
 .gitignore
 .vscode/**
+*.sh
 *.tmTheme
-build.sh
 icon.svg
 node_modules/**
 package-lock.json
 src/**
-tm-theme.sh
