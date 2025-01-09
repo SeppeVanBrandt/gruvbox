@@ -312,7 +312,7 @@
     "editorSuggestWidget.border": "{{bg4}}",
     "editorSuggestWidget.focusHighlightForeground": "{{orange}}",
     "editorSuggestWidget.foreground": "{{fg}}",
-    "editorSuggestWidget.highlightForeground": "{{dimOrange}}",
+    "editorSuggestWidget.highlightForeground": "{{orange}}",
     "editorSuggestWidget.selectedBackground": "{{bg4}}",
     "editorSuggestWidget.selectedForeground": "default",
     "editorSuggestWidget.selectedIconForeground": "{{fg}}",
