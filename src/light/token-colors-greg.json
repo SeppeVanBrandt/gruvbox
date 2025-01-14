@@ -38,6 +38,14 @@
       "settings": { "fontStyle": "italic", "foreground": "{{grey0}}" }
     },
     {
+      "name": "operators",
+      "scope": [
+        "keyword.control.flow.block-scalar.folded.yaml",
+        "storage.modifier.chomping-indicator.yaml"
+      ],
+      "settings": { "foreground": "{{orange}}" }
+    },
+    {
       "name": "json & yaml names",
       "scope": ["entity.name.tag.yaml", "support.type.property-name.json"],
       "settings": { "foreground": "{{blue}}" }

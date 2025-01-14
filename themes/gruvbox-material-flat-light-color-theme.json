@@ -838,125 +838,6 @@
   },
   "tokenColors": [
     {
-      "name": "json names",
-      "scope": ["meta.mapping.key.json string.quoted.double.json"],
-      "settings": {
-        "foreground": "#45707a"
-      }
-    },
-    {
-      "name": "toml names",
-      "scope": [
-        "entity.name.table.toml",
-        "entity.name.tag.toml",
-        "meta.tag.key.toml",
-        "meta.tag.table.toml"
-      ],
-      "settings": {
-        "foreground": "#45707a"
-      }
-    },
-    {
-      "name": "toml strings",
-      "scope": [
-        "string.quoted.double.basic.toml",
-        "string.quoted.single.literal.toml"
-      ],
-      "settings": {
-        "foreground": "#6c782e"
-      }
-    },
-    {
-      "name": "man headings",
-      "scope": [
-        "markup.heading.commands.man",
-        "markup.heading.env.man",
-        "markup.heading.other.man",
-        "markup.heading.synopsis.man"
-      ],
-      "settings": {
-        "foreground": "#b47109"
-      }
-    },
-    {
-      "name": "man command line options",
-      "scope": ["entity.name.command-line-option.man"],
-      "settings": {
-        "foreground": "#6c782e"
-      }
-    },
-    {
-      "name": "man parameters",
-      "scope": ["variable.parameter.man"],
-      "settings": {
-        "foreground": "#c14a4a"
-      }
-    },
-    {
-      "name": "punctuation",
-      "scope": [
-        "fenced_code.block.language",
-        "keyword.control.flow.block-scalar.literal.yaml",
-        "meta.brace",
-        "meta.tag.preprocessor.xml",
-        "meta.tag.xml",
-        "punctuation.definition.block.sequence.item.yaml",
-        "punctuation.definition.interpolation.begin.cs",
-        "punctuation.definition.interpolation.end.cs",
-        "punctuation.definition.list.begin.markdown",
-        "punctuation.definition.markdown",
-        "punctuation.definition.raw.markdown",
-        "punctuation.definition.string.begin.html",
-        "punctuation.definition.string.begin.toml",
-        "punctuation.definition.string.begin.xml",
-        "punctuation.definition.string.begin.yaml",
-        "punctuation.definition.string.end.html",
-        "punctuation.definition.string.end.toml",
-        "punctuation.definition.string.end.xml",
-        "punctuation.definition.string.end.yaml",
-        "punctuation.definition.table.toml",
-        "punctuation.definition.tag.begin.html",
-        "punctuation.definition.tag.end.html",
-        "punctuation.definition.tag.xml",
-        "punctuation.definition.template-expression",
-        "punctuation.separator.key-value.html",
-        "punctuation"
-      ],
-      "settings": {
-        "foreground": "#7c6f64"
-      }
-    },
-    {
-      "name": "comments",
-      "scope": ["comment", "punctuation.definition.comment"],
-      "settings": {
-        "fontStyle": "italic",
-        "foreground": "#a89984"
-      }
-    },
-    {
-      "name": "json & yaml names",
-      "scope": ["entity.name.tag.yaml", "support.type.property-name.json"],
-      "settings": {
-        "foreground": "#45707a"
-      }
-    },
-    {
-      "name": "markdown link text",
-      "scope": ["string.other.link.title.markdown"],
-      "settings": {
-        "foreground": "#945e80"
-      }
-    },
-    {
-      "name": "markdown link url",
-      "scope": ["markup.underline.link.markdown"],
-      "settings": {
-        "fontStyle": "",
-        "foreground": "#45707a"
-      }
-    },
-    {
       "scope": "keyword, storage.type.function, storage.type.class, storage.type.enum, storage.type.interface, storage.type.property, keyword.operator.new, keyword.operator.expression, keyword.operator.new, keyword.operator.delete, storage.type.extends",
       "settings": {
         "foreground": "#c14a4a"
@@ -2654,6 +2535,80 @@
       "scope": "token.debug-token",
       "settings": {
         "foreground": "#ff0000"
+      }
+    },
+    {
+      "name": "punctuation",
+      "scope": [
+        "fenced_code.block.language",
+        "keyword.control.flow.block-scalar.literal.yaml",
+        "meta.brace",
+        "meta.tag.preprocessor.xml",
+        "meta.tag.xml",
+        "punctuation.definition.block.sequence.item.yaml",
+        "punctuation.definition.interpolation.begin.cs",
+        "punctuation.definition.interpolation.end.cs",
+        "punctuation.definition.list.begin.markdown",
+        "punctuation.definition.markdown",
+        "punctuation.definition.raw.markdown",
+        "punctuation.definition.string.begin.html",
+        "punctuation.definition.string.begin.toml",
+        "punctuation.definition.string.begin.xml",
+        "punctuation.definition.string.begin.yaml",
+        "punctuation.definition.string.end.html",
+        "punctuation.definition.string.end.toml",
+        "punctuation.definition.string.end.xml",
+        "punctuation.definition.string.end.yaml",
+        "punctuation.definition.table.toml",
+        "punctuation.definition.tag.begin.html",
+        "punctuation.definition.tag.end.html",
+        "punctuation.definition.tag.xml",
+        "punctuation.definition.template-expression",
+        "punctuation.separator.key-value.html",
+        "punctuation"
+      ],
+      "settings": {
+        "foreground": "#7c6f64"
+      }
+    },
+    {
+      "name": "comments",
+      "scope": ["comment", "punctuation.definition.comment"],
+      "settings": {
+        "fontStyle": "italic",
+        "foreground": "#a89984"
+      }
+    },
+    {
+      "name": "operators",
+      "scope": [
+        "keyword.control.flow.block-scalar.folded.yaml",
+        "storage.modifier.chomping-indicator.yaml"
+      ],
+      "settings": {
+        "foreground": "#c35e0a"
+      }
+    },
+    {
+      "name": "json & yaml names",
+      "scope": ["entity.name.tag.yaml", "support.type.property-name.json"],
+      "settings": {
+        "foreground": "#45707a"
+      }
+    },
+    {
+      "name": "markdown link text",
+      "scope": ["string.other.link.title.markdown"],
+      "settings": {
+        "foreground": "#945e80"
+      }
+    },
+    {
+      "name": "markdown link url",
+      "scope": ["markup.underline.link.markdown"],
+      "settings": {
+        "fontStyle": "",
+        "foreground": "#45707a"
       }
     }
   ]
