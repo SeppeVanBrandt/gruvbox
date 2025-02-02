@@ -11,20 +11,20 @@ import (
 	"golang.org/x/text/language"
 )
 
-func read(path string) []byte {
+func read(path string) string {
 	file, err := os.ReadFile(path)
 	if err != nil {
 		panic(err)
 	}
-	return file
+	return string(file)
 }
 
 func get(path string, prop string) gjson.Result {
-	return gjson.Get(string(read(path)), prop)
+	return gjson.Get(read(path), prop)
 }
 
 func parse(path string) gjson.Result {
-	return gjson.Parse(string(read(path)))
+	return gjson.Parse(read(path))
 }
 
 func set(target string, prop string, source string) string {
