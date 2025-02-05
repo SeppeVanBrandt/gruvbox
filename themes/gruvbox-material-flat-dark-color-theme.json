@@ -2572,6 +2572,17 @@
       }
     },
     {
+      "name": "escape chars",
+      "scope": [
+        "constant.character.escape",
+        "constant.character.escape.cs",
+        "constant.character.escape.dockerfile"
+      ],
+      "settings": {
+        "foreground": "#a89984"
+      }
+    },
+    {
       "name": "comments",
       "scope": ["comment", "punctuation.definition.comment"],
       "settings": {
