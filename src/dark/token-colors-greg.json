@@ -60,6 +60,18 @@
       "settings": { "foreground": "{{blue}}" }
     },
     {
+      "name": "markdown headings",
+      "scope": [
+        "heading.1.markdown",
+        "heading.2.markdown",
+        "heading.3.markdown",
+        "heading.4.markdown",
+        "heading.5.markdown",
+        "heading.6.markdown"
+      ],
+      "settings": { "fontStyle": "bold", "foreground": "{{red}}" }
+    },
+    {
       "name": "markdown link text",
       "scope": ["string.other.link.title.markdown"],
       "settings": { "foreground": "{{purple}}" }
