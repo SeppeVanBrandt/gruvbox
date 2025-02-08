@@ -368,7 +368,6 @@
     "inlineChatInput.border": "{{flag}}",
     "inlineChatInput.focusBorder": "{{flag}}",
     "inlineChatInput.placeholderForeground": "{{flag}}",
-    "inlineEdit.border": "{{flag}}",
     "inlineEdit.indicator.background": "{{flag}}",
     "inlineEdit.indicator.border": "{{flag}}",
     "inlineEdit.indicator.foreground": "{{flag}}",
