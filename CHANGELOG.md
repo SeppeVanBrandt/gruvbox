@@ -2,6 +2,17 @@
 
 Based on [keep a changelog](http://keepachangelog.com/)
 
+## [0.2.3] - 2025-02-09
+
+### Added
+
+- Support for vscode 1.97
+
+### Fixed
+
+- Escape characters are light gray
+- Inline editor suggestions are light gray
+
 ## [0.2.2] - 2025-01-30
 
 ### Fixed
@@ -33,6 +44,7 @@ Based on [keep a changelog](http://keepachangelog.com/)
 
 - Initial release
 
+[0.2.3]: https://github.com/GrzegorzKozub/gruvbox-material-flat/compare/v0.2.2...v0.2.3
 [0.2.2]: https://github.com/GrzegorzKozub/gruvbox-material-flat/compare/v0.2.1...v0.2.2
 [0.2.1]: https://github.com/GrzegorzKozub/gruvbox-material-flat/compare/v0.2.0...v0.2.1
 [0.2.0]: https://github.com/GrzegorzKozub/gruvbox-material-flat/compare/v0.1.0...v0.2.0
