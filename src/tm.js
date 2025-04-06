@@ -8,8 +8,8 @@ const convert = (variant) => {
   const vscodeTheme = JSON.parse(
     fs.readFileSync(
       `${dir}/gruvbox-material-flat-${variant}-color-theme.json`,
-      'utf8'
-    )
+      'utf8',
+    ),
   );
   const { name, colors, tokenColors } = vscodeTheme;
   const tmTheme = plist.build({
