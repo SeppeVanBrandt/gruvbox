@@ -2,6 +2,12 @@
 
 Based on [keep a changelog](http://keepachangelog.com/)
 
+## [0.2.4] - 2025-04-18
+
+### Added
+
+- Support for vscode 1.99
+
 ## [0.2.3] - 2025-02-09
 
 ### Added
@@ -44,6 +50,7 @@ Based on [keep a changelog](http://keepachangelog.com/)
 
 - Initial release
 
+[0.2.4]: https://github.com/GrzegorzKozub/gruvbox-material-flat/compare/v0.2.3...v0.2.4
 [0.2.3]: https://github.com/GrzegorzKozub/gruvbox-material-flat/compare/v0.2.2...v0.2.3
 [0.2.2]: https://github.com/GrzegorzKozub/gruvbox-material-flat/compare/v0.2.1...v0.2.2
 [0.2.1]: https://github.com/GrzegorzKozub/gruvbox-material-flat/compare/v0.2.0...v0.2.1

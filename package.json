@@ -3,7 +3,7 @@
   "displayName": "Gruvbox Material Flat",
   "description": "Gruvbox theme with Material palette and flat appearance",
   "publisher": "GrzegorzKozub",
-  "version": "0.2.3",
+  "version": "0.2.4",
   "galleryBanner": {
     "color": "#32302f",
     "theme": "dark"
@@ -14,7 +14,7 @@
     "url": "https://github.com/GrzegorzKozub/gruvbox-material-flat"
   },
   "engines": {
-    "vscode": "^1.96.0"
+    "vscode": "^1.98.0"
   },
   "categories": [
     "Themes"
